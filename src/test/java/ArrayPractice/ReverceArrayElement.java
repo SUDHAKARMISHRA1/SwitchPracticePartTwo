@@ -1,7 +1,5 @@
 package ArrayPractice;
 
-import java.lang.reflect.Array;
-
 public class ReverceArrayElement {
 
 	public static void main(String[] args) {
