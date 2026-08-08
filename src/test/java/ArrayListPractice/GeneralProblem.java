@@ -17,6 +17,9 @@ public class GeneralProblem {
 		System.out.println(data.size());
 		
 		System.out.println(data);
+		
+		System.out.println(data.contains(3));
+		System.out.println(data.contains(9));
 	}
 
 }
