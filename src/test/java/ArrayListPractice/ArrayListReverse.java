@@ -6,7 +6,6 @@ public class ArrayListReverse {
 	
 	public static void main(String[] args) {
 		ArrayList<Integer> data = new ArrayList<>();
-		ArrayList<Integer> revData = new ArrayList<>(data.size());
 		data.add(2);
 		data.add(1,2);
 		data.add(1,4);
