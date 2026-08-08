@@ -38,6 +38,20 @@ public class GeneralProblem {
 		
 		data2.addAll(data);
 		System.out.println(data2);
+		
+		int n = 10;
+		ArrayList<Integer> data3 = new ArrayList<>();
+		for(int i=0;i<n;i++) {
+			data3.add(i+1);
+		}
+		System.out.println(data3);
+		ArrayList<Integer> data4 = new ArrayList<>();
+		data4.addAll(data3);
+		
+		System.out.println(data2.equals(data3));
+		System.out.println(data3.equals(data4));
+		
+		
 	}
 
 }
