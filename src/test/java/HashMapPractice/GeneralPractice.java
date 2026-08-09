@@ -55,7 +55,8 @@ public class GeneralPractice {
 		empDetail1.putAll(empDetail2);
 		System.out.println(empDetail1);
 		
-		
+		System.out.println(empDetail1.get(6));
+		System.out.println(empDetail1.get(4));
 		
 	}
 
