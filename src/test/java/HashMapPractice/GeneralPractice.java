@@ -1,6 +1,7 @@
 package HashMapPractice;
 
 import java.util.HashMap;
+import java.util.Map;
 
 public class GeneralPractice {
 	
@@ -20,6 +21,13 @@ public class GeneralPractice {
 		System.out.println(empDetail.containsValue("king"));
 		empDetail.remove(3);
 		System.out.println(empDetail);
+		empDetail.put(2, "Me");
+		System.out.println(empDetail);
+		System.out.println(empDetail.size());
+		
+		for(Map.Entry<Integer,String> c: empDetail.entrySet()) {
+			System.out.println(c.getKey()+" : "+c.getValue());
+		}
 		
 		
 		
