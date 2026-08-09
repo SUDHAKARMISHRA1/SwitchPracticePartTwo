@@ -12,6 +12,11 @@ public class GeneralPractice {
 		
 		System.out.println(empDetail);
 		
+		System.out.println(empDetail.get(2));
+		System.out.println(empDetail.containsKey(1));
+		System.out.println(empDetail.containsKey(3));
+		
+		
 		
 	}
 
