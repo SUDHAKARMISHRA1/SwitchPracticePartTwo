@@ -1,0 +1,21 @@
+package SetPractice;
+
+import java.util.HashSet;
+import java.util.Set;
+
+public class GeneralProblem {
+	
+	
+	public static void main(String[] args) {
+		Set<Integer> data = new HashSet<>();
+		data.add(2);
+		data.add(4);
+		data.add(0);
+		data.add(8);
+		data.add(6);
+		System.out.println(data);
+		data.remove(0);
+		System.out.println(data);
+	}
+
+}
