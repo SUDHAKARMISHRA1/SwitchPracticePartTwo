@@ -64,7 +64,8 @@ public class GeneralProblem {
 			System.out.println(t);
 		}
 		
-		
+		System.out.println(data.containsAll(data2));
+		System.out.println(data2.containsAll(data3));
 		
 	}
 

@@ -21,9 +21,18 @@ public class RemoveAllElementFromOneHashsetifPresentInTwo {
 		
 		Object[] one = data2.toArray();
 		
+		//find ele which is in one but not in two
+		for(int i=0;i<data2.size();i++) {
+			if(data.contains(one[i])==false) {
+				System.out.println("Missing are: "+one[i]);
+			}
+		}
+		
+		
+		
+		//remove if ele of one present in two
 		for(int i=0;i<data2.size();i++) {
 			if(data.contains(one[i])==true) {
-				System.out.println(one[i]);
 				data2.remove(one[i]);
 			}
 		}
