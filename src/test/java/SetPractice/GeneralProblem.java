@@ -1,5 +1,6 @@
 package SetPractice;
 
+import java.util.Arrays;
 import java.util.HashSet;
 import java.util.Set;
 
@@ -28,6 +29,18 @@ public class GeneralProblem {
 		System.out.println(data);
 		
 		System.out.println(data.isEmpty());
+		Set<Integer> data2 = new HashSet<>();
+		data2.add(2);
+		data2.add(4);
+		data2.add(0);
+		data2.add(8);
+		data2.add(6);
+		
+		
+		Object[] add= data2.toArray();
+		System.out.println(add[2]);
+		
+		
 	}
 
 }
