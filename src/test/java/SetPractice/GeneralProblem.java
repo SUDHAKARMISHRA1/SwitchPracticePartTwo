@@ -20,6 +20,14 @@ public class GeneralProblem {
 		//Set contain elements
 		System.out.println(data.contains(3));
 		System.out.println(data.contains(2));
+		
+		System.out.println(data.size());
+		
+		data.clear();
+		
+		System.out.println(data);
+		
+		System.out.println(data.isEmpty());
 	}
 
 }
