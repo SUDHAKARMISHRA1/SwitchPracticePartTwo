@@ -59,6 +59,10 @@ public class GeneralProblem {
 			int val = it.next();
 			System.out.println(val);
 		}
+		System.out.println("**************");
+		for(int t : data3) {
+			System.out.println(t);
+		}
 		
 		
 		
