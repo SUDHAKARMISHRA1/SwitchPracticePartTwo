@@ -2,6 +2,7 @@ package SetPractice;
 
 import java.util.Arrays;
 import java.util.HashSet;
+import java.util.Iterator;
 import java.util.Set;
 
 public class GeneralProblem {
@@ -52,6 +53,13 @@ public class GeneralProblem {
 		
 		data3.addAll(data2);
 		System.out.println(data3.size()==data2.size());
+		
+		Iterator<Integer> it = data3.iterator();
+		while(it.hasNext()) {
+			int val = it.next();
+			System.out.println(val);
+		}
+		
 		
 		
 	}
