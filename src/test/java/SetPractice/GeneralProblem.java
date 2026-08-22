@@ -16,6 +16,10 @@ public class GeneralProblem {
 		System.out.println(data);
 		data.remove(0);
 		System.out.println(data);
+		
+		//Set contain elements
+		System.out.println(data.contains(3));
+		System.out.println(data.contains(2));
 	}
 
 }
