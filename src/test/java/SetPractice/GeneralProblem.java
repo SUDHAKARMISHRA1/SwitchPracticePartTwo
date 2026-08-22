@@ -36,9 +36,19 @@ public class GeneralProblem {
 		data2.add(8);
 		data2.add(6);
 		
+		Set<Integer> data3 = new HashSet<>();
+		data3.add(2);
+		data3.add(4);
+		data3.add(0);
+		data3.add(8);
+		data3.add(6);
 		
 		Object[] add= data2.toArray();
 		System.out.println(add[2]);
+		
+		
+		System.out.println(data.equals(data2));
+		System.out.println(data2.equals(data3));
 		
 		
 	}
