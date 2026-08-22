@@ -23,6 +23,9 @@ public class UnionAndIntersectionInSet {
 		union.addAll(data);
 		System.out.println(union);
 		
+		Set<Integer> intersection = new HashSet<>(data2);
+		intersection.retainAll(data);
+		System.out.println(intersection);
 
 		
 	}
