@@ -50,6 +50,9 @@ public class GeneralProblem {
 		System.out.println(data.equals(data2));
 		System.out.println(data2.equals(data3));
 		
+		data3.addAll(data2);
+		System.out.println(data3.size()==data2.size());
+		
 		
 	}
 
