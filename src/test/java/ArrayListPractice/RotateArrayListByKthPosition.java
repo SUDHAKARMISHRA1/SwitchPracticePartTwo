@@ -17,6 +17,16 @@ public class RotateArrayListByKthPosition {
 		System.out.println(data);
 		Collections.rotate(data, -1);
 		System.out.println(data);	
+		
+		ArrayList<Integer> data2 = new ArrayList<>();
+		data2.add(2);
+		data2.add(2);
+		data2.add(10);
+		data2.add(3);
+		data2.add(9);
+		System.out.println(data2);
+		Collections.rotate(data2, 1);
+		System.out.println(data2);
 	}
 
 }
