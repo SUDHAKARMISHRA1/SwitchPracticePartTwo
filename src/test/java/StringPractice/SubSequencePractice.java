@@ -14,7 +14,7 @@ public class SubSequencePractice {
 	        // Don't take current character
 	        printSubsequence(data, index + 1, result);
 
-	        // Take current character
+	        // Take current char
 	        printSubsequence(
 	            data,
 	            index + 1,
