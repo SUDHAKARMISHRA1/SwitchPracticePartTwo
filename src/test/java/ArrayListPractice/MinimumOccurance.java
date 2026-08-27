@@ -1,13 +1,11 @@
 package ArrayListPractice;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Iterator;
 import java.util.Map;
-import java.util.Map.Entry;
 
-public class MaxOccuranceElement {
+public class MinimumOccurance {
 	
 	public static void main(String[] args) {
 		ArrayList<Integer> data = new ArrayList<>();
@@ -31,13 +29,15 @@ public class MaxOccuranceElement {
 			}
 		}
 		System.out.println(res);
-		int maxCount=0;
+		int minCount = Integer.MAX_VALUE;
 		for (Map.Entry<Integer, Integer> entry : res.entrySet()) {
-            if (entry.getValue() > maxCount) {
-                maxCount = entry.getValue();
+            if (entry.getValue() < minCount) {
+            	minCount = entry.getValue();
             }
         }
-		System.out.println(maxCount);
+		System.out.println(minCount);
 	}
+	
+
 
 }
