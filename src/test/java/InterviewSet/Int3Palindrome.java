@@ -22,7 +22,7 @@ public class Int3Palindrome {
 	        int len = data.length();
 
 	        if(len<=0){
-	            System.out.println("Ple Enter valid String");
+	            System.out.println("Please Enter valid String");
 	        }else{
 	            boolean result= checkPalindrome(data,len);
 	            if(result==true){
@@ -31,5 +31,8 @@ public class Int3Palindrome {
 	                System.out.println("Given String is not palindrome");
 	            }
 	        }
+	        sc.close();
+	        
 	    }
+	    
 }
