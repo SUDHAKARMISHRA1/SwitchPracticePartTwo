@@ -17,9 +17,7 @@ public class Int14KthLargestandSmallest {
 		System.out.println("Kth Largest is: " +data[data.length-3]);
 		System.out.println("Kth Smallest is: " +data[3]);
 		
-		
-		
-		
+	
 		
 	}
 
