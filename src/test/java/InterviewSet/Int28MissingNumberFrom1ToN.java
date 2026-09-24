@@ -16,6 +16,7 @@ public class Int28MissingNumberFrom1ToN {
 		}
 		
 		int missingElement= totalSumofNDigit-seqTotalSum;
+		
 		System.out.println("The Missing element is: " +missingElement);
 	}
 	
