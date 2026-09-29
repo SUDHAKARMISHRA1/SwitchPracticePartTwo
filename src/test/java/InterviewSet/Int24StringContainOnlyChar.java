@@ -1,6 +1,6 @@
 package InterviewSet;
 
-public class Int34StringContainOnlyChar {
+public class Int24StringContainOnlyChar {
 	
 	
 	public static void main(String[] args) {
