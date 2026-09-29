@@ -9,9 +9,9 @@ public class Int32ScannerInput {
 		System.out.println("Enter the number:");
 		int num= sc.nextInt();
 		if(num%2==0) {
-			System.out.println("The Give number is even");
+			System.out.println("The Give number is even: " +num);
 		}else {
-			System.out.println("The give number is odd");
+			System.out.println("The give number is odd: " +num);
 		}
 		
 	}
