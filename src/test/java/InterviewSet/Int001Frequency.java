@@ -16,10 +16,10 @@ public class Int001Frequency {
 				result.put(data[i], 1);
 			}
 		}
+		
+		//Result
 		System.out.println(result);
-		
-		
-		
+	
 	}
 	
 	
