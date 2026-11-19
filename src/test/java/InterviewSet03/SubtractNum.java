@@ -10,8 +10,8 @@ public class SubtractNum {
 			int num1 = sc.nextInt();
 			System.out.println("Enter num 2:");
 			int num2 = sc.nextInt();
-			int sum = num1-num2;
-			System.out.println("Sum of num1 and num2 is: " +sum);
+			int sub = num1-num2;
+			System.out.println("Sub of num2 from num1 is: " +sub);
 					
 			
 		}
